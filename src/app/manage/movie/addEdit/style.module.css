@@ -1,0 +1,97 @@
+.ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-ctn {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.add-title {
+  font-size: 48px;
+  font-weight: 600;
+  padding: 6rem 0;
+}
+.add-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 80px;
+}
+.upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 473px;
+  height: 504px;
+  border-radius: 10px;
+  border: 2px dashed #fff;
+  background: var(--input-color);
+}
+.upload-ctn {
+  margin-right: 127px;
+  position: relative;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.label-content {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.input-ctn {
+  display: flex;
+  flex-direction: column;
+  margin-right: 127px;
+}
+.input {
+  margin-bottom: 24px;
+  padding: 11px 16px;
+  border-radius: 10px;
+  background: var(--input-color);
+}
+.year {
+  width: 216px;
+}
+.add-button-ctn {
+  display: flex;
+  gap: 16px;
+}
+.add-button {
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.cancel-button {
+  border: 1px solid #fff;
+  padding: 16px 55px;
+}
+
+.submit-button {
+  background: var(--primary);
+  padding: 16px 59px;
+}
+.opacity {
+  z-index: 10001;
+  padding: 1rem;
+}
+
+.img-url {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 504 px;
+  object-fit: cover;
+}
+
+.img-url img {
+  max-width: none;
+}

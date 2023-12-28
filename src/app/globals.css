@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "normalize.css";
+
+:root {
+  --background-color: #093545;
+  --text-color: #ffffff;
+  --primary: #2bd17e;
+  --error: #eb5757;
+  --background-color: #093545;
+  --input-color: #224957;
+  --card-color: #092c39;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 14px;
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-ctn {
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main {
+  margin: auto;
+}
